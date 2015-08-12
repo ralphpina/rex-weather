@@ -23,7 +23,11 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.github.pwittchen:weathericonview:1.0.0'
+    compile 'com.android.support:support-v13:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.2.1' // includes com.android.support:support-v4
+    compile 'com.android.support:design:22.2.1'
     compile 'io.reactivex:rxjava:1.0.13'
     compile 'io.reactivex:rxandroid:0.23.0'
     compile 'com.squareup.retrofit:retrofit:1.8.0'

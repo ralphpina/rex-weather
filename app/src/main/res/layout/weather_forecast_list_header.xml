@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/location_name"
+        style="@style/LocationText"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:text="San Francisco"
+        android:layout_weight="1"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/current_temperature"
+        style="@style/CurrentTemperatureText"
+        android:layout_gravity="center_vertical"
+        android:text="26"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        tools:ignore="HardcodedText"/>
+
+</LinearLayout>

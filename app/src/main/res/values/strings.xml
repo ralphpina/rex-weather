@@ -11,5 +11,9 @@
     <string name="sky_is_clear">sky is clear</string>
     <string name="nineteen_degrees">19°</string>
     <string name="fifteen_degrees">15°</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
